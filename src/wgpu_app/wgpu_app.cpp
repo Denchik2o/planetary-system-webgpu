@@ -1,6 +1,6 @@
 #include <wgpu_app.hpp>
 
-#include <wgpu.h>
+#include <webgpu/wgpu.h>
 
 #include <stdexcept>
 #include <string>

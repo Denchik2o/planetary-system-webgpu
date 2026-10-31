@@ -1,7 +1,7 @@
 #pragma once
 
 #include <SDL3/SDL.h>
-#include <webgpu.h>
+#include <webgpu/webgpu.h>
 
 #include <string>
 #include <optional>

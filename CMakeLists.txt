@@ -72,7 +72,10 @@ target_include_directories(wgpu_app PUBLIC
 target_link_libraries(wgpu_app PUBLIC math SDL3::SDL3 wgpu-native)
 
 # ---------- executable ----------
-add_executable(planetary-system-webgpu src/main.cpp)
+add_executable(planetary-system-webgpu
+    src/main.cpp
+    src/mesh_generators.cpp
+)
 target_link_libraries(planetary-system-webgpu PRIVATE math wgpu_app)
 target_compile_definitions(planetary-system-webgpu PRIVATE
     RESOURCES_ROOT="${CMAKE_CURRENT_SOURCE_DIR}/resources"

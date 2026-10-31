@@ -6,6 +6,6 @@
 .cache/
 .clangd/
 .qtcreator/
-cpp/cmake-build-*/
-cpp/build/
-rust/target/
+cmake-build-*/
+build/
+target/
